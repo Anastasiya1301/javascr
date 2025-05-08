@@ -52,11 +52,14 @@
 // const isConfirmedOrder = confirm(message);
 // console.log(isConfirmedOrder);
 
-const newMessage = 'Введіть число';
-prompt(newMessage);
-console.log(prompt(newMessage));
-console.log(typeof prompt(newMessage));
+// const newMessage = 'Введіть число';
+// prompt(newMessage);
+// console.log(prompt(newMessage));
+// console.log(typeof prompt(newMessage));
 
 
-//Types 
+//Types
 //number,string,blight,symbol,null,undefinded,boolean.
+
+
+
