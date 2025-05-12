@@ -76,4 +76,4 @@ console.log(rest);
 //дає дати вибрати значення скільки чисел треба в дужках скільки чисел треба після коми
 const value = 1.737373838939;
 const newValue = value.toFixed(1);
-console.log(newValue)
+console.log(newValue);
