@@ -24,56 +24,56 @@
 // console.log(Number.isNaN(parsedNum4));// isNaN перевірка чи є це не числом?
 
 
-const number = "20.53";
-// const power = 50;
-// // const result = number ** power;
-// const result = Math.pow(number, power);//pow
-// console.log(result);
+// const number = "20.53";
+// // const power = 50;
+// // // const result = number ** power;
+// // const result = Math.pow(number, power);//pow
+// // console.log(result);
 
-//округлює до меншого
-const floredNumber = Math.floor(number)
-console.log(floredNumber);
-console.log(typeof floredNumber);
+// //округлює до меншого
+// const floredNumber = Math.floor(number)
+// console.log(floredNumber);
+// console.log(typeof floredNumber);
 
-//округлює до більшого
-const ceiledNumber = Math.ceil(number);
-console.log(ceiledNumber);
-console.log(typeof ceiledNumber);
+// //округлює до більшого
+// const ceiledNumber = Math.ceil(number);
+// console.log(ceiledNumber);
+// console.log(typeof ceiledNumber);
 
-//округляє як в правилах математики
-const roundedNumber = Math.round(number);
-console.log(roundedNumber);
-console.log(typeof roundedNumber);
+// //округляє як в правилах математики
+// const roundedNumber = Math.round(number);
+// console.log(roundedNumber);
+// console.log(typeof roundedNumber);
 
-//менше значення визначає
-const num1 = 20;
-const num2 = 30;
-const num3 = 40;
-const minNumber = Math.min(num1, num2, num3);
-console.log(minNumber);
+// //менше значення визначає
+// const num1 = 20;
+// const num2 = 30;
+// const num3 = 40;
+// const minNumber = Math.min(num1, num2, num3);
+// console.log(minNumber);
 
-//максимальне число визначає
-const maxNumber = Math.max(num1, num2, num3);
-console.log(maxNumber);
+// //максимальне число визначає
+// const maxNumber = Math.max(num1, num2, num3);
+// console.log(maxNumber);
 
-//рандомні числа але з 0( наприклад 0.869660)
-const randomNumber = Math.random()
-console.log(randomNumber);
+// //рандомні числа але з 0( наприклад 0.869660)
+// const randomNumber = Math.random()
+// console.log(randomNumber);
 
-//з цілими числами
-const min = 5;
-const max = 10;
-const randomNumber2 = Math.random() * (max - min) + min;
-console.log(randomNumber2);
+// //з цілими числами
+// const min = 5;
+// const max = 10;
+// const randomNumber2 = Math.random() * (max - min) + min;
+// console.log(randomNumber2);
 
-const randomNumber3 = Math.round(Math.random() * (max - min) + min);
-console.log(randomNumber3);
+// const randomNumber3 = Math.round(Math.random() * (max - min) + min);
+// console.log(randomNumber3);
 
-//корінь з числа
-const rest = Math.sqrt(25);
-console.log(rest);
+// //корінь з числа
+// const rest = Math.sqrt(25);
+// console.log(rest);
 
-//дає дати вибрати значення скільки чисел треба в дужках скільки чисел треба після коми
-const value = 1.737373838939;
-const newValue = value.toFixed(1);
-console.log(newValue);
+// //дає дати вибрати значення скільки чисел треба в дужках скільки чисел треба після коми
+// const value = 1.737373838939;
+// const newValue = value.toFixed(1);
+// console.log(newValue);
